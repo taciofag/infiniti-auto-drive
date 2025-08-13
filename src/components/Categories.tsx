@@ -65,8 +65,8 @@ const Categories = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   {category.description}
                 </p>
-                <div className="text-primary font-medium group-hover:underline">
-                  Ver mais →
+                <div className="bg-gradient-whatsapp hover:bg-whatsapp text-whatsapp-foreground px-4 py-2 rounded-lg font-semibold shadow-whatsapp transition-all duration-300">
+                  💬 Pedir Orçamento
                 </div>
               </CardContent>
             </Card>

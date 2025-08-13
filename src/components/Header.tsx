@@ -51,7 +51,7 @@ const Header = () => {
 
         <Button 
           onClick={handleWhatsAppClick}
-          className="bg-primary hover:bg-primary-glow text-primary-foreground shadow-primary"
+          className="bg-gradient-whatsapp hover:bg-whatsapp text-whatsapp-foreground shadow-whatsapp font-semibold"
         >
           <MessageCircle className="w-4 h-4 mr-2" />
           Pedir Orçamento

@@ -45,9 +45,9 @@ const Hero = () => {
             <Button 
               size="lg"
               onClick={handleWhatsAppClick}
-              className="bg-primary hover:bg-primary-glow text-primary-foreground shadow-primary text-lg px-8 py-6"
+              className="bg-gradient-whatsapp hover:bg-whatsapp text-whatsapp-foreground shadow-whatsapp text-lg px-8 py-6 font-semibold"
             >
-              Solicitar Orçamento Agora
+              🚀 SOLICITAR ORÇAMENTO COM ESPECIALISTA
             </Button>
           </div>
 

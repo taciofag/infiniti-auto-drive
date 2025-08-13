@@ -19,9 +19,9 @@ All colors MUST be HSL.
     --popover-foreground: 0 0% 15%;
 
     /* Brand Primary - Infiniti Red */
-    --primary: 0 73% 50%;
+    --primary: 0 84% 55%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 0 73% 60%;
+    --primary-glow: 0 84% 65%;
 
     /* Brand Secondary - Professional Dark */
     --secondary: 0 0% 96%;
@@ -31,15 +31,15 @@ All colors MUST be HSL.
     --muted-foreground: 0 0% 45%;
 
     /* Brand Accent - Darker brand color */
-    --accent: 0 0% 96%;
-    --accent-foreground: 0 0% 15%;
+    --accent: 0 84% 55%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 0 0% 90%;
     --input: 0 0% 95%;
-    --ring: 0 73% 50%;
+    --ring: 0 84% 55%;
 
     /* WhatsApp Green */
     --whatsapp: 142 70% 49%;
@@ -48,10 +48,12 @@ All colors MUST be HSL.
     /* Custom gradients for the brand */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(0 0% 96%));
+    --gradient-whatsapp: linear-gradient(135deg, hsl(142 70% 49%), hsl(142 70% 55%));
     
     /* Shadows with brand colors */
     --shadow-primary: 0 10px 30px -10px hsl(var(--primary) / 0.3);
     --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.1);
+    --shadow-whatsapp: 0 4px 20px -4px hsl(142 70% 49% / 0.4);
 
     --radius: 0.5rem;
 

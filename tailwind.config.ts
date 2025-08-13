@@ -94,7 +94,7 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'bounce-slow': 'bounce 2s infinite',
+				'bounce-slow': 'bounce 3s infinite',
 				'fade-in': 'fade-in 0.5s ease-out',
 				'slide-up': 'slide-up 0.3s ease-out'
 			},
@@ -110,11 +110,13 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-hero': 'var(--gradient-hero)'
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-whatsapp': 'var(--gradient-whatsapp)'
 			},
 			boxShadow: {
 				'primary': 'var(--shadow-primary)',
-				'soft': 'var(--shadow-soft)'
+				'soft': 'var(--shadow-soft)',
+				'whatsapp': 'var(--shadow-whatsapp)'
 			}
 		}
 	},

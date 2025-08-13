@@ -69,9 +69,9 @@ const Contact = () => {
                   />
                   <Button 
                     type="submit" 
-                    className="w-full bg-whatsapp hover:bg-whatsapp/90 text-whatsapp-foreground"
+                    className="w-full bg-gradient-whatsapp hover:bg-whatsapp text-whatsapp-foreground shadow-whatsapp font-semibold"
                   >
-                    Enviar via WhatsApp
+                    📱 ENVIAR VIA WHATSAPP
                   </Button>
                 </form>
               </CardContent>
