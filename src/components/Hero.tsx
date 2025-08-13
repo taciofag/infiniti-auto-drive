@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Search, Shield, CreditCard } from "lucide-react";
+import { Shield, CreditCard } from "lucide-react";
 import heroImage from "@/assets/hero-auto-parts.jpg";
 
 const Hero = () => {
@@ -21,14 +20,6 @@ const Hero = () => {
                 Encontre a peça que você precisa com garantia, nota fiscal e os melhores preços do mercado. 
                 Atendimento especializado e entrega rápida em toda região.
               </p>
-            </div>
-
-            <div className="relative max-w-md">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
-              <Input 
-                placeholder="Buscar peças (ex: farol, lanterna...)"
-                className="pl-10 h-12 text-lg"
-              />
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
