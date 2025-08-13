@@ -29,7 +29,7 @@ const Categories = () => {
   ];
 
   const handleWhatsAppClick = (category: string) => {
-    window.open(`https://wa.me/553573050568?text=Olá, quero um orçamento de ${category}`, "_blank");
+    window.open(`https://wa.me/5561984014374?text=Olá, quero um orçamento de ${category}`, "_blank");
   };
 
   return (

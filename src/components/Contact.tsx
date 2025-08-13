@@ -15,7 +15,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const whatsappMessage = `Olá! Meu nome é ${formData.name}. ${formData.message}. Meu telefone: ${formData.phone}`;
-    window.open(`https://wa.me/553573050568?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
+    window.open(`https://wa.me/5561984014374?text=${encodeURIComponent(whatsappMessage)}`, "_blank");
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -86,7 +86,7 @@ const Contact = () => {
                     <Phone className="w-6 h-6 text-primary" />
                     <div>
                       <h4 className="font-semibold text-foreground">Telefone</h4>
-                      <p className="text-muted-foreground">(61) 3573-0568 </p>
+                      <p className="text-muted-foreground">(61) 3573-0568</p>
                     </div>
                   </div>
                 </CardContent>
@@ -99,7 +99,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-foreground">Endereço</h4>
                       <p className="text-muted-foreground">
-                        Shn 206 loja 03<br />
+                        SHN 206, Loja 03<br />
                         Taguatinga - DF, 72.130-700
                       </p>
                     </div>
@@ -125,7 +125,7 @@ const Contact = () => {
 
             <div className="w-full h-64 bg-muted rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.853612240514!2d-46.63421268442554!3d-23.561975066926677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b8b8b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sSão%20Paulo%2C%20SP!5e0!3m2!1spt!2sbr!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.4745729384845!2d-48.06380762402678!3d-15.8007456851563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a33b5b5b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sSHN%20Qd%20206%2C%20Taguatinga%20-%20DF!5e0!3m2!1spt!2sbr!4v1641830400000"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

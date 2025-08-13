@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 
 const Header = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/553573050568?text=Olá, quero um orçamento de peça", "_blank");
+    window.open("https://wa.me/5561984014374?text=Olá, quero um orçamento de peça", "_blank");
   };
 
   const scrollToSection = (sectionId: string) => {

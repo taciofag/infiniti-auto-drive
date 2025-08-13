@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Shield, CreditCard } from "lucide-react";
-import heroImage from "@/assets/hero-auto-parts.jpg";
+import heroImage from "/lovable-uploads/995116e7-3bc7-4fa9-b376-688937052633.png";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/553573050568?text=Olá, quero um orçamento de peça", "_blank");
+    window.open("https://wa.me/5561984014374?text=Olá, quero um orçamento de peça", "_blank");
   };
 
   return (
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="relative">
             <img 
               src={heroImage} 
-              alt="Peças automotivas de qualidade" 
+              alt="Loja Infiniti Auto Peças em Taguatinga - DF" 
               className="w-full h-auto rounded-lg shadow-soft"
             />
           </div>
